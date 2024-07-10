@@ -1,0 +1,22 @@
+
+S
+java:S1854"8Remove this useless assignment to local variable "date".(šæÔşÿÿÿÿ
+R
+java:S69092"<Move this loop-invariant setter invocation out of this loop.(…ª‘‘
+W
+java:S69098"<Move this loop-invariant setter invocation out of this loop.(ùŒåäøÿÿÿÿ
+D
+java:S1481")Remove this unused "date" local variable.(šæÔşÿÿÿÿ
+G
+java:S6126"2Replace this String concatenation with Text block.(üÊúR
+M
+java:S6126+"2Replace this String concatenation with Text block.( ïŒ’üÿÿÿÿ
+E	java:S106E"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ
+P	java:S125K"<This block of commented-out lines of code should be removed.(×›Ù!
+Q	java:S125N"<This block of commented-out lines of code should be removed.(ãúÀ
+q
+java:S69129"VUse "addBatch" and "executeBatch" to execute multiple SQL statements in a single call.(âàö„úÿÿÿÿ
+l
+java:S69125"VUse "addBatch" and "executeBatch" to execute multiple SQL statements in a single call.(êé¦œ
+q
+java:S6912A"VUse "addBatch" and "executeBatch" to execute multiple SQL statements in a single call.(×©¡üÿÿÿÿ

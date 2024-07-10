@@ -1,0 +1,28 @@
+
+l
+java:S1066œ"/Merge this if statement with the enclosing one.(ˆø¶ªJ$b7edf068-c377-4545-9506-4912e885bba9
+š	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆ€„ŠûÿÿÿÿJ$4cabc439-2399-4199-8223-2e3b7be72e07
+¾
+java:S1186“"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶îJ$3c59f3f6-47e3-43f3-9032-d017904d06cb
+Â
+java:S1186#"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(€ˆ»ÿùÿÿÿÿJ$ebc69cac-aa1b-4f33-9016-e3030d7161a1
+¨
+java:S1130'"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‰¼÷ÉJ$a786aa6f-5cdd-4b89-a3e3-e2a2ee9c34dc
+x
+java:S1172&"<Remove these unused method parameters "request", "response".(Ç¯íÞJ$dcd1c970-4fde-412e-9422-a16c4024a0a5
+|	java:S1251"<This block of commented-out lines of code should be removed.(ÉÃÑþÿÿÿÿJ$0b0de492-7ddf-468b-843a-722f7a0694eb
+¨
+java:S1130C"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‰¼÷ÉJ$4d7aee66-a3c3-4754-8a1f-519dd0ed1e2e
+x
+java:S1172B"<Remove these unused method parameters "request", "response".(åøÄ—J$4141c02b-3ca1-42b9-a7a5-d5a618cd4dd5
+|	java:S125M"<This block of commented-out lines of code should be removed.(¶ë¯ÎùÿÿÿÿJ$88d58294-4415-446d-9f7e-c82773972388
+|	java:S125V"<This block of commented-out lines of code should be removed.(Ä›ø•øÿÿÿÿJ$bb4a4f06-2573-4861-b9c5-3ced9602a42a
+j	java:S108Á")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿJ$1d6f4951-9d67-41be-8f3f-41ae5ed1eac7
+j	java:S108É")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿJ$9e71977b-691d-4917-926d-52c853936010
+j	java:S108×")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿJ$50c8e79d-1451-4c11-8140-3216989c8cf5
+s
+java:S1144&"7Remove this unused private "doBeforeProcessing" method.(Ç¯íÞJ$b04e2325-a162-4468-8215-8a710d351546
+r
+java:S1144B"6Remove this unused private "doAfterProcessing" method.(åøÄ—J$a697fb49-cbd7-4405-bbf6-069b41b11705
+z
+java:S1144°"8Remove this unused private "sendProcessingError" method.(¼­–ÈûÿÿÿÿJ$453e6c68-306f-4eec-bd15-49fe64c816b2

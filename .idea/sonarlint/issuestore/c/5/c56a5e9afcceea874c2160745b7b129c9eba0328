@@ -1,0 +1,12 @@
+
+p
+java:S14882"ZImmediately return this expression instead of assigning it to the temporary variable "pd".(‘ÌâÏ
+E	java:S106&"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ
+E	java:S106:"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ
+H
+java:S6126@"2Replace this String concatenation with Text block.(ŽÊÙá
+E	java:S106M"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ
+E	java:S106\"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ
+E	java:S106i"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ
+E	java:S106q"+Replace this use of System.out by a logger.(³ªÁÝùÿÿÿÿ
+E	java:S106r"+Replace this use of System.out by a logger.(Ý˜½…ùÿÿÿÿ

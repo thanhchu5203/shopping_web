@@ -1,0 +1,18 @@
+
+E	java:S1066"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ
+E	java:S106T"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ
+E	java:S106s"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ
+M
+java:S6126{"2Replace this String concatenation with Text block.(¬ áÊÿÿÿÿÿ
+F	java:S106’"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ
+N
+java:S6126š"2Replace this String concatenation with Text block.(ÕìÈ¢þÿÿÿÿ
+F	java:S106®"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ
+R
+java:S1854Ä"6Remove this useless assignment to local variable "a1".(ž¶ïÎüÿÿÿÿ
+R	java:S125´"<This block of commented-out lines of code should be removed.(ƒ©ÑÙ
+C
+java:S1481Ä"'Remove this unused "a1" local variable.(ž¶ïÎüÿÿÿÿ
+F	java:S106Å"+Replace this use of System.out by a logger.(Ý˜½…ùÿÿÿÿ
+D
+java:S1068".Remove this unused "CHARACTERS" private field.(ž‹—ª

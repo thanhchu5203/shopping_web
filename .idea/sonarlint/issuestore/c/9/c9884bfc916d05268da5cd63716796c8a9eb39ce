@@ -1,0 +1,20 @@
+
+’
+java:S1104"VMake connection a static final constant or non-public and provide accessors if needed.(«¸œõJ$f97de0ab-ab6e-40fa-a845-d95ebee2c08e
+
+java:S20950"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(À×‹®ûÿÿÿÿJ$f3db16bc-1ab7-4bdd-a5d9-bf8e9e6a47d5
+ˆ
+java:S2095$"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÇÔùÿÿÿÿJ$1b023d32-71b1-4086-8b93-d215e0f73225
+n
+java:S4925"-Remove this "Class.forName()", it is useless.(ìè©‡úÿÿÿÿJ$1da91c21-dce3-4f57-864d-37587950e65f
+r
+java:S6437"6Revoke and change this password, as it is compromised.(şÃÏ§J$059d298b-90ee-4383-ae5f-e13fcae028c4
+f	java:S106"+Replace this use of System.out by a logger.(ö¬J$6319efc8-f78c-4bab-a331-7a99f61ab46a
+‰	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¸°ÖJ$533c94af-1c72-4a91-b50f-36d88e44b3f6
+l
+java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒJ$43d7c534-38b9-4d6c-86b5-5e6b7dc64c7a
+g
+java:S1128
+"+Remove this unused import 'java.util.Date'.(¸…¼üJ$e352d252-d27c-4d5e-af94-4ae1ce88f8bc
+l
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±ÄøÿÿÿÿJ$ad016d7e-aa49-43c1-9a43-3c1c5990d02f

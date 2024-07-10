@@ -1,0 +1,5 @@
+
+‹
+java:S1319E"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(´¯Ÿ‘øÿÿÿÿ
+{
+java:S1488G"`Immediately return this expression instead of assigning it to the temporary variable "listSize".(ëŠÆÏûÿÿÿÿ
