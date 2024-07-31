@@ -176,6 +176,40 @@ public class AccountDAO extends DBContext {
         }
         return false;
     }
+    
+    
+    public boolean accountExists(String username) {
+        String query = "select count(*) from account where AccountUser = ?";
+        try (PreparedStatement ps = connection.prepareStatement(query)) {
+            ps.setString(1, username);
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                return rs.getInt(1) > 0;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+//    public boolean registerAccount(String user, String pass, String name, String email, String dob, String mobile, String address) {
+//        String query = "INSERT INTO Accounts (username, password, name, email, dob, mobile, address) VALUES (?, ?, ?, ?, ?, ?, ?)";
+//        try (PreparedStatement ps = connection.prepareStatement(query)) {
+//            ps.setString(1, user);
+//            ps.setString(2, pass);
+//            ps.setString(3, name);
+//            ps.setString(4, email);
+//            ps.setString(5, dob);
+//            ps.setString(6, mobile);
+//            ps.setString(7, address);
+//            int rowsAffected = ps.executeUpdate();
+//            return rowsAffected > 0;
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        return false;
+//    }
+    
 
 //    public static String generateRandomString(int length) {
 //        Random random = new Random();

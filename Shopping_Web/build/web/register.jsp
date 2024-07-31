@@ -27,33 +27,41 @@
                         <div class="signup-content">
                             <div class="signup-form">
                                 <h2 class="form-title">Sign up</h2>
+
+                                <%-- Display error message if available --%>
+                                <% if (request.getAttribute("error") != null) { %>
+                                    <div class="error-message" style="color: red;">
+                                        <%= request.getAttribute("error") %>
+                                    </div>
+                                <% } %>
+
                                 <div class="form-group">
-                                    <label for="pass"><i class="zmdi "></i></label>
-                                    <input type="text" name="name" id="name" placeholder="Your Name"/>
+                                    <label for="name"><i class="zmdi "></i></label>
+                                    <input type="text" name="name" id="name" placeholder="Your Name" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="user"><i class="zmdi "></i></label>
+                                    <input type="text" name="user" id="user" placeholder="User Name" />
                                 </div>
                                 <div class="form-group">
                                     <label for="pass"><i class="zmdi "></i></label>
-                                    <input type="text" name="user" id="user" placeholder="User Name"/>
-                                </div>
-                                <div class="form-group">
-                                    <label for="pass"><i class="zmdi "></i></label>
-                                    <input type="password" name="pass" id="pass" placeholder="Password"/>
+                                    <input type="password" name="pass" id="pass" placeholder="Password" />
                                 </div>
                                 <div class="form-group">
                                     <label for="email"><i class="zmdi "></i></label>
-                                    <input type="email" name="email" id="email" placeholder="Email"/>
+                                    <input type="email" name="email" id="email" placeholder="Email" />
                                 </div>
                                 <div class="form-group">
-                                    <label for="pass"><i class="zmdi "></i></label>
-                                    <input type="date" name="dob" id="dob" placeholder="Dob"/>
+                                    <label for="dob"><i class="zmdi "></i></label>
+                                    <input type="date" name="dob" id="dob" placeholder="Dob" />
                                 </div>
                                 <div class="form-group">
-                                    <label for="pass"><i class="zmdi "></i></label>
-                                    <input type="text" name="moblie" id="moblie" placeholder="Your moblie"/>
+                                    <label for="mobile"><i class="zmdi "></i></label>
+                                    <input type="text" name="mobile" id="mobile" placeholder="Your Mobile" />
                                 </div>
                                 <div class="form-group">
-                                    <label for="pass"><i class="zmdi "></i></label>
-                                    <input type="text" name="address" id="address" placeholder="Your address"/>
+                                    <label for="address"><i class="zmdi "></i></label>
+                                    <input type="text" name="address" id="address" placeholder="Your Address" />
                                 </div>
                                 <div class="form-group form-button">
                                     <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
@@ -61,7 +69,7 @@
                                 <span><a href="login" class="signup-image-link">Sign In</a></span>
                             </div>
                             <div class="signup-image">
-                                <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
+                                <figure><img src="images/signup-image.jpg" alt="sign up image"></figure>
                             </div>
                         </div>
                     </div>
